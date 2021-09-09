@@ -1,16 +1,20 @@
-# This is a sample Python script.
+from precious import dictionary_two
+from precious import calculator
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print("\nWelcome to chat bot and calculator service ")
 
+user_input = input("Enter 1 to perform first function and 2 to the second function and enter 3 to perform both "
+                   "function: ")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+if user_input == 1:
+    user_input = dictionary_two.do_something()
+elif user_input == 2:
+    user_input = calculator.calculator()
+elif user_input == 3:
+    user_input = dictionary_two.do_something() and calculator.calculator()
 
+if __name__ == "__main__":
+    dictionary_two.do_something()
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    calculator.calculator()
