@@ -8,4 +8,5 @@ years = 90 - current_age
 days = 356 * years
 week = 52 * years
 month = 12 * years
-print(f"You have {days} days, {week} weeks, {month} months, and {years} years left")
+result = f"You have {days} days, {week} weeks, {month} months, and {years} years left"
+print(result)
