@@ -89,9 +89,9 @@ def even_number(list_):
     #     if numb % 2 == 0:
     #         even_number_list.append(numb)
     # print(even_number_list)
-     print(numb if numb % 2 == 0 else "", end='')
-    # even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
-    # print("-".join(even_number_list))
+     #print(numb if numb % 2 == 0 else "", end='')
+     even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
+     print("-".join(even_number_list))
 
 
 # number 11
