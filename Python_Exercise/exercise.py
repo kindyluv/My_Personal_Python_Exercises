@@ -21,5 +21,9 @@ def sum_number(list):
         print(numb)
 
 
+# number3
+def multiple(list_):
+    print(math.prod(list_))
+
 
 
