@@ -14,10 +14,10 @@ def maximum_of_three_numbers():
 
 
 # number2
-def sum_number(list):
-    sum = 0
-    for numb in list:
-        sum += numb
+def sum_number(list_):
+    sum_total = 0
+    for numb in list_:
+        sum_total += numb
         print(numb)
 
 
@@ -25,19 +25,23 @@ def sum_number(list):
 def multiple(list_):
     print(math.prod(list_))
 
+
 # number4
 def reverse_a_string(name):
     print(name[::-1])
 
+
 # number5
 def factorial(number):
     print(math.factorial(number))
+
 
 # number 6
 def number_fall(list):
     for numb in range(1, 7):
         if 3 in list:
             print(list[numb])
+
 
 # number 7
 def string_uppercase_lowercase():
@@ -53,6 +57,7 @@ def string_uppercase_lowercase():
     print("the original input is: ", c, "\n", "the number of upper case is: ", d["UPPER_CASE"], "\n",
           "the number of lower case is: ", d["LOWER_CASE"])
 
+
 # number 8
 def unique_element(list_):
     unique_list = []
@@ -61,6 +66,7 @@ def unique_element(list_):
             unique_list.append(numb)
     result = f"sample list is {list_}, the unique list is: {unique_list}"
     print(result)
+
 
 # number 9
 def prime_number(number):
@@ -74,6 +80,7 @@ def prime_number(number):
     else:
         print("number is not a prime number")
 
+
 # number 10
 def even_number(list_):
     even_number_list = []
@@ -82,8 +89,9 @@ def even_number(list_):
             even_number_list.append(numb)
     print(even_number_list)
     # print(numb if numb % 2 == 0 else "", end='')
-    #even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
-    #print("-".join(even_number_list))
+    # even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
+    # print("-".join(even_number_list))
+
 
 # number 11
 def perfect_number(number):
@@ -96,9 +104,11 @@ def perfect_number(number):
     else:
         print("number is not a perfect number")
 
+
 # number 12
 def string_palindrome(list_):
     print(True if list_ == list_[::-1] else False)
+
 
 # number 14
 def pangram(string):
@@ -110,4 +120,3 @@ def pangram(string):
         else:
             print("fail")
             break
-
