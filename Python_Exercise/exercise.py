@@ -62,5 +62,15 @@ def unique_element(list_):
     result = f"sample list is {list_}, the unique list is: {unique_list}"
     print(result)
 
+# number 9
+def prime_number(number):
+    number_divisors = []
+    for numb in range(1, number):
+        if number % numb == 0:
+            number_divisors.append(numb)
 
+    if len(number_divisors) == 1:
+        print("number is a prime number")
+    else:
+        print("number is not a prime number")
 
