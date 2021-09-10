@@ -79,6 +79,7 @@ def prime_number(number):
         print("number is a prime number")
     else:
         print("number is not a prime number")
+    print(number_divisors)
 
 
 # number 10
