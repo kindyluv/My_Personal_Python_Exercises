@@ -33,3 +33,11 @@ def reverse_a_string(name):
 def factorial(number):
     print(math.factorial(number))
 
+# number 6
+def number_fall(list):
+    for numb in range(1, 7):
+        if 3 in list:
+            print(list[numb])
+
+
+
