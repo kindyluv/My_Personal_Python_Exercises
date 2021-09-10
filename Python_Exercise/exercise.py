@@ -39,5 +39,17 @@ def number_fall(list):
         if 3 in list:
             print(list[numb])
 
+# number 7
+def string_uppercase_lowercase():
+    global c
+    name = input("Enter name:  ")
 
+    d = {"UPPER_CASE": 0, "LOWER_CASE": 0}
+    for c in name:
+        if c.isupper():
+            d["UPPER_CASE"] += 1
+        elif c.islower():
+            d["LOWER_CASE"] += 1
+    print("the original input is: ", c, "\n", "the number of upper case is: ", d["UPPER_CASE"], "\n",
+          "the number of lower case is: ", d["LOWER_CASE"])
 
