@@ -13,5 +13,13 @@ def maximum_of_three_numbers():
     print("The minimum number is ", get_minimum_number)
 
 
+# number2
+def sum_number(list):
+    sum = 0
+    for numb in list:
+        sum += numb
+        print(numb)
+
+
 
 
