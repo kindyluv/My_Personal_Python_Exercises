@@ -85,4 +85,14 @@ def even_number(list_):
     #even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
     #print("-".join(even_number_list))
 
+# number 11
+def perfect_number(number):
+    perfect_number_list = []
+    for numb in range(1, number):
+        if number % numb == 0:
+            perfect_number_list.append(numb)
+    if sum(perfect_number_list) == number:
+        print("Perfect number")
+    else:
+        print("number is not a perfect number")
 
