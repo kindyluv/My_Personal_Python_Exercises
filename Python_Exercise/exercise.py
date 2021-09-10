@@ -29,4 +29,7 @@ def multiple(list_):
 def reverse_a_string(name):
     print(name[::-1])
 
+# number5
+def factorial(number):
+    print(math.factorial(number))
 
