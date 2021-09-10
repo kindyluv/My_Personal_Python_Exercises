@@ -53,3 +53,14 @@ def string_uppercase_lowercase():
     print("the original input is: ", c, "\n", "the number of upper case is: ", d["UPPER_CASE"], "\n",
           "the number of lower case is: ", d["LOWER_CASE"])
 
+# number 8
+def unique_element(list_):
+    unique_list = []
+    for numb in list_:
+        if numb not in unique_list:
+            unique_list.append(numb)
+    result = f"sample list is {list_}, the unique list is: {unique_list}"
+    print(result)
+
+
+
