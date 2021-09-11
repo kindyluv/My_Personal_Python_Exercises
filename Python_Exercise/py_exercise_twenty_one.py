@@ -17,10 +17,10 @@ def rollercoaster_four():
         if want_photos == "yes":
             cost += 3
             print(f"your bill is additional ${cost}")
-#         else:
-#             print(f"your bill is {cost}")
-#     else:
-#         print("sorry you are not qualified to ride the rollercoaster")
-#
-#
-# rollercoaster_four()
+        else:
+            print(f"your bill is {cost}")
+    else:
+        print("sorry you are not qualified to ride the rollercoaster")
+
+
+rollercoaster_four()
