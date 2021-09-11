@@ -21,11 +21,11 @@ def pizza_deliveries():
     elif add_pepperoni == "yes":
         medium_size += 3
         print(f"your final bill is {medium_size}")
-#     elif add_pepperoni == "yes":
-#         large_size += 3
-#         print(f"your final bill is {large_size}")
-#     else:
-#         print("you are too broke")
+    elif add_pepperoni == "yes":
+        large_size += 3
+        print(f"your final bill is {large_size}")
+    else:
+        print("you are too broke")
 #     extra_cheese = input("Do you want extra cheese? yes or no  ")
 #     if extra_cheese == "yes":
 #         small_size += 1
