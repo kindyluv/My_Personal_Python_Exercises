@@ -10,3 +10,6 @@ def rollercoaster_two():
         print("your ride would cost you $7")
     else:
         print("sorry you are not qualified to ride the rollercoaster")
+
+
+rollercoaster_two()
