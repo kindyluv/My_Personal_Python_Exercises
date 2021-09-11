@@ -20,14 +20,14 @@ def pizza_deliveries_three():
         if pizza_size == "small":
             cost += 2
             print(f"your final bill is {cost}")
-#     else:
-#         cost += 3
-#         print(f"your final bill is {cost}")
-#     if extra_cheese == "yes":
-#         cost += 1
-#         print(f"your final bill is {cost}")
-#     else:
-#         print("you too broke go joor")
-#
-#
-# pizza_deliveries_three()
+    else:
+        cost += 3
+        print(f"your final bill is {cost}")
+    if extra_cheese == "yes":
+        cost += 1
+        print(f"your final bill is {cost}")
+    else:
+        print("you too broke go joor")
+
+
+pizza_deliveries_three()
