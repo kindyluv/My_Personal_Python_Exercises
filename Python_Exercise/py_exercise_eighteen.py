@@ -2,9 +2,9 @@ def user_bmi():
     weight = float(input("Enter weight in m:  "))
     height = float(input("Enter height in kg:  "))
 
-#     bmi = weight/height**2
-#     if bmi < 18.5:
-#         print(f"your bmi is {bmi} so you are underweight.")
+    bmi = weight/height**2
+    if bmi < 18.5:
+        print(f"your bmi is {bmi} so you are underweight.")
 #     elif 18.5 < bmi < 25:
 #         print(f"your bmi is {bmi} so you are  normal weight.")
 #     elif 25 < bmi < 30:
