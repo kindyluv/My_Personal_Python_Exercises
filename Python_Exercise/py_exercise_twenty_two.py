@@ -5,9 +5,9 @@ def pizza_deliveries():
     small_size = 15
     medium_size = 20
     large_size = 25
-#
-#     if pizza_size == "small":
-#         print(f"your pizza bill is {small_size}")
+
+    if pizza_size == "small":
+        print(f"your pizza bill is {small_size}")
 #     elif pizza_size == "medium":
 #         print(f"your pizza bill is {medium_size}")
 #     elif pizza_size == "large":
