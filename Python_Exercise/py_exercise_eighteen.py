@@ -9,8 +9,8 @@ def user_bmi():
         print(f"your bmi is {bmi} so you are  normal weight.")
     elif 25 < bmi < 30:
         print(f"your bmi is {bmi} so you are  overWeight.")
-#     elif 30 < bmi < 35:
-#         print(f"your bmi is {bmi} so you are  obese.")
+    elif 30 < bmi < 35:
+        print(f"your bmi is {bmi} so you are  obese.")
 #     else:
 #         print(f"your bmi is {bmi} so you are  clinically obese.")
 #
