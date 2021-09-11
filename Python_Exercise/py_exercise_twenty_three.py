@@ -14,12 +14,12 @@ def pizza_deliveries_two():
     elif pizza_size == "large":
         cost += 25
         print(f"your pizza bill is {cost}")
-#     else:
-#         print("no under wetin you want oh")
-#     if add_pepperoni == "yes":
-#         if pizza_size == "small":
-#             cost += 2
-#             print(f"your final bill is {cost}")
+    else:
+        print("no under wetin you want oh")
+    if add_pepperoni == "yes":
+        if pizza_size == "small":
+            cost += 2
+            print(f"your final bill is {cost}")
 #     elif add_pepperoni == "yes":
 #         if pizza_size == "medium":
 #             cost += 3
