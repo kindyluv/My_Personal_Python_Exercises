@@ -3,8 +3,8 @@ def leap_year():
 
     if year % 4 == 0:
         print(f"{year} a leap year")
-#     else:
-#         print(f"{year} is not a leap year")
-#
-#
-# leap_year()
+    else:
+        print(f"{year} is not a leap year")
+
+
+leap_year()
