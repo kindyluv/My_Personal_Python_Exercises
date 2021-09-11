@@ -28,11 +28,11 @@ def pizza_deliveries_two():
         if pizza_size == "large":
             cost += 3
             print(f"your final bill is {cost}")
-#     else:
-#         print("you are too broke")
-#     if extra_cheese == "yes":
-#         cost += 1
-#         print(f"your final bill is {cost}")
+    else:
+        print("you are too broke")
+    if extra_cheese == "yes":
+        cost += 1
+        print(f"your final bill is {cost}")
 #     else:
 #         print("you too broke go joor")
 #
