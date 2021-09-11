@@ -4,10 +4,10 @@ def pizza_deliveries_two():
     add_pepperoni = input("Do you want pepperoni? yes or no?  ")
     extra_cheese = input("Do you want extra cheese? yes or no?  ")
 
-#     cost = 0
-#     if pizza_size == "small":
-#         cost += 15
-#         print(f"your pizza bill is {cost}")
+    cost = 0
+    if pizza_size == "small":
+        cost += 15
+        print(f"your pizza bill is {cost}")
 #     elif pizza_size == "medium":
 #         cost += 20
 #         print(f"your pizza bill is {cost}")
