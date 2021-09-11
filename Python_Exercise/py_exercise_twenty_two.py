@@ -18,9 +18,9 @@ def pizza_deliveries():
     if add_pepperoni == "yes":
         small_size += 2
         print(f"your final bill is {small_size}")
-#     elif add_pepperoni == "yes":
-#         medium_size += 3
-#         print(f"your final bill is {medium_size}")
+    elif add_pepperoni == "yes":
+        medium_size += 3
+        print(f"your final bill is {medium_size}")
 #     elif add_pepperoni == "yes":
 #         large_size += 3
 #         print(f"your final bill is {large_size}")
