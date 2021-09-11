@@ -7,9 +7,9 @@ def rollercoaster_four():
         if age > 18:
             cost = 12
             print(f"adult ride would cost you ${cost}")
-#         elif 18 >= age >= 12:
-#             cost = 7
-#             print(f"teenage ride would cost you ${cost}")
+        elif 18 >= age >= 12:
+            cost = 7
+            print(f"teenage ride would cost you ${cost}")
 #         else:
 #             cost = 5
 #             print(f"child ride would cost you $[{cost}")
