@@ -8,7 +8,7 @@ def rollercoaster_three():
             print("your ride would cost you $12")
         elif 18 >= age >= 12:
             print("your ride would cost you $7")
-    #     else:
-    #         print("your ride would cost you $5")
+        else:
+            print("your ride would cost you $5")
     # else:
     #     print("sorry you are not qualified to ride the rollercoaster")
