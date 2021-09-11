@@ -13,10 +13,10 @@ def rollercoaster_four():
         else:
             cost = 5
             print(f"child ride would cost you $[{cost}")
-#         want_photos = input("Enter Yes or No:  ")
-#         if want_photos == "yes":
-#             cost += 3
-#             print(f"your bill is additional ${cost}")
+        want_photos = input("Enter Yes or No:  ")
+        if want_photos == "yes":
+            cost += 3
+            print(f"your bill is additional ${cost}")
 #         else:
 #             print(f"your bill is {cost}")
 #     else:
