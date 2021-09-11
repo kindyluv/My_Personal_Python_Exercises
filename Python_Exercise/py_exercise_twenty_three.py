@@ -8,12 +8,12 @@ def pizza_deliveries_two():
     if pizza_size == "small":
         cost += 15
         print(f"your pizza bill is {cost}")
-#     elif pizza_size == "medium":
-#         cost += 20
-#         print(f"your pizza bill is {cost}")
-#     elif pizza_size == "large":
-#         cost += 25
-#         print(f"your pizza bill is {cost}")
+    elif pizza_size == "medium":
+        cost += 20
+        print(f"your pizza bill is {cost}")
+    elif pizza_size == "large":
+        cost += 25
+        print(f"your pizza bill is {cost}")
 #     else:
 #         print("no under wetin you want oh")
 #     if add_pepperoni == "yes":
