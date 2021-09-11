@@ -30,9 +30,9 @@ def pizza_deliveries():
     if extra_cheese == "yes":
         small_size += 1
         print(f"your final bill is {small_size}")
-#     elif extra_cheese == "yes":
-#         medium_size += 1
-#         print(f"your final bill is {medium_size}")
+    elif extra_cheese == "yes":
+        medium_size += 1
+        print(f"your final bill is {medium_size}")
 #     elif extra_cheese == "yes":
 #         large_size += 1
 #         print(f"your final bill is {large_size}")
