@@ -33,8 +33,8 @@ def pizza_deliveries_two():
     if extra_cheese == "yes":
         cost += 1
         print(f"your final bill is {cost}")
-#     else:
-#         print("you too broke go joor")
-#
-#
-# pizza_deliveries_two()
+    else:
+        print("you too broke go joor")
+
+
+pizza_deliveries_two()
