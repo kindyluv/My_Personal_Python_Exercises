@@ -26,10 +26,10 @@ def pizza_deliveries():
         print(f"your final bill is {large_size}")
     else:
         print("you are too broke")
-#     extra_cheese = input("Do you want extra cheese? yes or no  ")
-#     if extra_cheese == "yes":
-#         small_size += 1
-#         print(f"your final bill is {small_size}")
+    extra_cheese = input("Do you want extra cheese? yes or no  ")
+    if extra_cheese == "yes":
+        small_size += 1
+        print(f"your final bill is {small_size}")
 #     elif extra_cheese == "yes":
 #         medium_size += 1
 #         print(f"your final bill is {medium_size}")
