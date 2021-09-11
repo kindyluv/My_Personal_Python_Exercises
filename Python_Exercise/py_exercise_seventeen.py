@@ -10,5 +10,8 @@ def rollercoaster_three():
             print("your ride would cost you $7")
         else:
             print("your ride would cost you $5")
-    # else:
-    #     print("sorry you are not qualified to ride the rollercoaster")
+    else:
+        print("sorry you are not qualified to ride the rollercoaster")
+
+
+rollercoaster_three()
