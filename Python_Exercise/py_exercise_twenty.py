@@ -11,8 +11,8 @@ def leap_year_one():
                 print(f"{year} a leap year")
             else:
                 print(f"{year} is not a leap year")
-#     else:
-#         print(f"{year} is not a leap year")
-#
-#
-# leap_year_one()
+    else:
+        print(f"{year} is not a leap year")
+
+
+leap_year_one()
