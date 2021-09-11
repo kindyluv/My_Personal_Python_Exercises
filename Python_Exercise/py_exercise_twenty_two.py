@@ -12,12 +12,12 @@ def pizza_deliveries():
         print(f"your pizza bill is {medium_size}")
     elif pizza_size == "large":
         print(f"your pizza bill is {large_size}")
-#     else:
-#         print("no under wetin you want oh")
-#     add_pepperoni = input("Do you want pepperoni? yes or no  ")
-#     if add_pepperoni == "yes":
-#         small_size += 2
-#         print(f"your final bill is {small_size}")
+    else:
+        print("no under wetin you want oh")
+    add_pepperoni = input("Do you want pepperoni? yes or no  ")
+    if add_pepperoni == "yes":
+        small_size += 2
+        print(f"your final bill is {small_size}")
 #     elif add_pepperoni == "yes":
 #         medium_size += 3
 #         print(f"your final bill is {medium_size}")
