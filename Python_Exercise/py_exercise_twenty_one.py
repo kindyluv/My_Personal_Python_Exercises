@@ -3,10 +3,10 @@ def rollercoaster_four():
     cost = 0
     if height > 120:
         print("welcome to semicolon roller coaster")
-#         age = int(input("kindly enter your age:  "))
-#         if age > 18:
-#             cost = 12
-#             print(f"adult ride would cost you ${cost}")
+        age = int(input("kindly enter your age:  "))
+        if age > 18:
+            cost = 12
+            print(f"adult ride would cost you ${cost}")
 #         elif 18 >= age >= 12:
 #             cost = 7
 #             print(f"teenage ride would cost you ${cost}")
