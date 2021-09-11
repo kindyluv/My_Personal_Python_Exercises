@@ -10,9 +10,9 @@ def rollercoaster_four():
         elif 18 >= age >= 12:
             cost = 7
             print(f"teenage ride would cost you ${cost}")
-#         else:
-#             cost = 5
-#             print(f"child ride would cost you $[{cost}")
+        else:
+            cost = 5
+            print(f"child ride would cost you $[{cost}")
 #         want_photos = input("Enter Yes or No:  ")
 #         if want_photos == "yes":
 #             cost += 3
