@@ -48,8 +48,8 @@ elif user_inputs == 10:
     user_inputs = exercise.even_number()
 elif user_inputs == 11:
     user_inputs = exercise.perfect_number()
-# elif user_inputs == 12:
-#     user_inputs = exercise.string_palindrome()
+elif user_inputs == 12:
+    user_inputs = exercise.string_palindrome()
 # elif user_inputs == 14:
 #     user_inputs = exercise.pangram()
 # elif user_inputs == 15:
