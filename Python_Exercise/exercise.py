@@ -119,13 +119,13 @@ def pangram(string):
             break
 
 
-# # number 15
-# def hyphen_separated_sequence(word):
-#     sequence = word.split('-')
-#     sequence.sort()
-#     print("-".join(sequence))
-#
-#
+# number 15
+def hyphen_separated_sequence(word):
+    sequence = word.split('-')
+    sequence.sort()
+    print("-".join(sequence))
+
+
 # # number 16
 # def value_square_numbers():
 #     number = []
