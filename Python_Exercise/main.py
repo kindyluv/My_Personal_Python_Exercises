@@ -34,8 +34,8 @@ elif user_inputs == 3:
     user_inputs = exercise.multiple()
 elif user_inputs == 4:
     user_inputs = exercise.reverse_a_string()
-# elif user_inputs == 5:
-#     user_inputs = exercise.factorial()
+elif user_inputs == 5:
+    user_inputs = exercise.factorial()
 # elif user_inputs == 6:
 #     user_inputs = exercise.number_fall()
 # elif user_inputs == 7:
