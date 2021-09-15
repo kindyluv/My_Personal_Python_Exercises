@@ -107,18 +107,18 @@ def string_palindrome(list_):
     print(True if list_ == list_[::-1] else False)
 
 
-# # number 14
-# def pangram(string):
-#     # strings = input("Enter words:  ")
-#     alphabet = ["abcdefghijklmnopqrstuvwxyz"]
-#     for i in alphabet:
-#         if i in string.lower().split():
-#             print("pass")
-#         else:
-#             print("fail")
-#             break
-#
-#
+# number 14
+def pangram(string):
+    # strings = input("Enter words:  ")
+    alphabet = ["abcdefghijklmnopqrstuvwxyz"]
+    for i in alphabet:
+        if i in string.lower().split():
+            print("pass")
+        else:
+            print("fail")
+            break
+
+
 # # number 15
 # def hyphen_separated_sequence(word):
 #     sequence = word.split('-')
