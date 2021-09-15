@@ -126,10 +126,10 @@ def hyphen_separated_sequence(word):
     print("-".join(sequence))
 
 
-# # number 16
-# def value_square_numbers():
-#     number = []
-#     for i in range(1, 31):
-#         if type(math.sqrt(i)) == type(1):
-#             number.append(i)
-#             print(number)
+# number 16
+def value_square_numbers():
+    number = []
+    for i in range(1, 31):
+        if type(math.sqrt(i)) == type(1):
+            number.append(i)
+            print(number)
