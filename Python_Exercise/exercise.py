@@ -22,10 +22,10 @@ def multiple(list_):
     print(math.prod(list_))
 
 
-# # number4
-# def reverse_a_string(name):
-#     print(name[::-1])
-#
+# number4
+def reverse_a_string(name):
+    print(name[::-1])
+
 #
 # # number5
 # def factorial(number):
