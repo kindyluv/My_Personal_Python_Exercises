@@ -44,8 +44,8 @@ elif user_inputs == 8:
     user_inputs = exercise.unique_element()
 elif user_inputs == 9:
     user_inputs = exercise.prime_number()
-# elif user_inputs == 10:
-#     user_inputs = exercise.even_number()
+elif user_inputs == 10:
+    user_inputs = exercise.even_number()
 # elif user_inputs == 11:
 #     user_inputs = exercise.perfect_number()
 # elif user_inputs == 12:
