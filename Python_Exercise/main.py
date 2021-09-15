@@ -52,8 +52,8 @@ elif user_inputs == 12:
     user_inputs = exercise.string_palindrome()
 elif user_inputs == 14:
     user_inputs = exercise.pangram()
-# elif user_inputs == 15:
-#     user_inputs = exercise.hyphen_separated_sequence()
+elif user_inputs == 15:
+    user_inputs = exercise.hyphen_separated_sequence()
 # elif user_inputs == 16:
 #     user_inputs = exercise.value_square_numbers()
 # else:
