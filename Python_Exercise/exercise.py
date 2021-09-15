@@ -54,16 +54,16 @@ def string_uppercase_lowercase():
           "the number of lower case is: ", d["LOWER_CASE"])
 
 
-# # number 8
-# def unique_element(list_):
-#     unique_list = []
-#     for numb in list_:
-#         if numb not in unique_list:
-#             unique_list.append(numb)
-#     result = f"sample list is {list_}, the unique list is: {unique_list}"
-#     print(result)
-#
-#
+# number 8
+def unique_element(list_):
+    unique_list = []
+    for numb in list_:
+        if numb not in unique_list:
+            unique_list.append(numb)
+    result = f"sample list is {list_}, the unique list is: {unique_list}"
+    print(result)
+
+
 # # number 9
 # def prime_number(number):
 #     number_divisors = []
