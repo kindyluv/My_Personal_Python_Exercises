@@ -78,18 +78,18 @@ def prime_number(number):
     print(number_divisors)
 
 
-# # number 10
-# def even_number(list_):
-#     even_number_list = []
-#     for numb in list_:
-#         if numb % 2 == 0:
-#             even_number_list.append(numb)
-#     print(even_number_list)
-#     # print(numb if numb % 2 == 0 else "", end='')
-#     # even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
-#     # print("-".join(even_number_list))
-#
-#
+# number 10
+def even_number(list_):
+    even_number_list = []
+    for numb in list_:
+        if numb % 2 == 0:
+            even_number_list.append(numb)
+    print(even_number_list)
+    # print(numb if numb % 2 == 0 else "", end='')
+    # even_number_list = [str(numb) for numb in list_ if numb % 2 == 0]
+    # print("-".join(even_number_list))
+
+
 # # number 11
 # def perfect_number(number):
 #     perfect_number_list = []
