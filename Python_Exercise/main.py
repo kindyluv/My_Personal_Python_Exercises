@@ -25,9 +25,9 @@ user_inputs = input(
     15 to get the hyphen_separated_sequence
     16 to get value square numbers
     """
-# )
-# if user_inputs == 1:
-#     user_inputs = exercise.maximum_of_three_numbers()
+)
+if user_inputs == 1:
+    user_inputs = exercise.maximum_of_three_numbers()
 # elif user_inputs == 2:
 #     user_inputs = exercise.sum_number()
 # elif user_inputs == 3:
