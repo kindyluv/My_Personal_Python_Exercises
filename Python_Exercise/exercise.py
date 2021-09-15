@@ -17,11 +17,11 @@ def sum_number(list_):
         print(numb)
 
 
-# # number3
-# def multiple(list_):
-#     print(math.prod(list_))
-#
-#
+# number3
+def multiple(list_):
+    print(math.prod(list_))
+
+
 # # number4
 # def reverse_a_string(name):
 #     print(name[::-1])
