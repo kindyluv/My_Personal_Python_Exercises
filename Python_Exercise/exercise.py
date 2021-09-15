@@ -64,20 +64,20 @@ def unique_element(list_):
     print(result)
 
 
-# # number 9
-# def prime_number(number):
-#     number_divisors = []
-#     for numb in range(1, number):
-#         if number % numb == 0:
-#             number_divisors.append(numb)
-#
-#     if len(number_divisors) == 1:
-#         print("number is a prime number")
-#     else:
-#         print("number is not a prime number")
-#     print(number_divisors)
-#
-#
+# number 9
+def prime_number(number):
+    number_divisors = []
+    for numb in range(1, number):
+        if number % numb == 0:
+            number_divisors.append(numb)
+
+    if len(number_divisors) == 1:
+        print("number is a prime number")
+    else:
+        print("number is not a prime number")
+    print(number_divisors)
+
+
 # # number 10
 # def even_number(list_):
 #     even_number_list = []
