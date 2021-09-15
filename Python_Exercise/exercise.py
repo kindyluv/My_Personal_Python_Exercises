@@ -102,11 +102,11 @@ def perfect_number(number):
         print("number is not a perfect number")
 
 
-# # number 12
-# def string_palindrome(list_):
-#     print(True if list_ == list_[::-1] else False)
-#
-#
+# number 12
+def string_palindrome(list_):
+    print(True if list_ == list_[::-1] else False)
+
+
 # # number 14
 # def pangram(string):
 #     # strings = input("Enter words:  ")
