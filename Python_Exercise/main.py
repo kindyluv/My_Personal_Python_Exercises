@@ -28,8 +28,8 @@ user_inputs = input(
 )
 if user_inputs == 1:
     user_inputs = exercise.maximum_of_three_numbers()
-# elif user_inputs == 2:
-#     user_inputs = exercise.sum_number()
+elif user_inputs == 2:
+    user_inputs = exercise.sum_number()
 # elif user_inputs == 3:
 #     user_inputs = exercise.multiple()
 # elif user_inputs == 4:
