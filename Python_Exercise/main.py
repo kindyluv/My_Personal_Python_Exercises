@@ -38,8 +38,8 @@ elif user_inputs == 5:
     user_inputs = exercise.factorial()
 elif user_inputs == 6:
     user_inputs = exercise.number_fall()
-# elif user_inputs == 7:
-#     user_inputs = exercise.string_uppercase_lowercase()
+elif user_inputs == 7:
+    user_inputs = exercise.string_uppercase_lowercase()
 # elif user_inputs == 8:
 #     user_inputs = exercise.unique_element()
 # elif user_inputs == 9:
