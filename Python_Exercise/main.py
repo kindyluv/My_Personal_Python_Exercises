@@ -54,10 +54,10 @@ elif user_inputs == 14:
     user_inputs = exercise.pangram()
 elif user_inputs == 15:
     user_inputs = exercise.hyphen_separated_sequence()
-# elif user_inputs == 16:
-#     user_inputs = exercise.value_square_numbers()
-# else:
-#     print("invalid number")
+elif user_inputs == 16:
+    user_inputs = exercise.value_square_numbers()
+else:
+    print("invalid number")
 
 # if user_input == 1:
 #     user_input = dictionary_two.do_something()
