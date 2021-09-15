@@ -32,13 +32,13 @@ def factorial(number):
     print(math.factorial(number))
 
 
-# # number 6
-# def number_fall(list_):
-#     for numb in range(1, 7):
-#         if 3 in list_:
-#             print(list_[numb])
-#
-#
+# number 6
+def number_fall(list_):
+    for numb in range(1, 7):
+        if 3 in list_:
+            print(list_[numb])
+
+
 # # number 7
 # def string_uppercase_lowercase():
 #     global c
