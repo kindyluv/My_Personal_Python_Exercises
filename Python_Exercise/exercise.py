@@ -26,12 +26,12 @@ def multiple(list_):
 def reverse_a_string(name):
     print(name[::-1])
 
-#
-# # number5
-# def factorial(number):
-#     print(math.factorial(number))
-#
-#
+
+# number5
+def factorial(number):
+    print(math.factorial(number))
+
+
 # # number 6
 # def number_fall(list_):
 #     for numb in range(1, 7):
