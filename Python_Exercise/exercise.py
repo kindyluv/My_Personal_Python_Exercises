@@ -10,13 +10,13 @@ def maximum_of_three_numbers():
 
 
 # number2
-# def sum_number(list_):
-#     sum_total = 0
-#     for numb in list_:
-#         sum_total += numb
-#         print(numb)
-#
-#
+def sum_number(list_):
+    sum_total = 0
+    for numb in list_:
+        sum_total += numb
+        print(numb)
+
+
 # # number3
 # def multiple(list_):
 #     print(math.prod(list_))
