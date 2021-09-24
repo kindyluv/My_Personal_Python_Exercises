@@ -40,12 +40,12 @@ class Native:
         if len(last_name) > 25:
             raise ValueError("Last Name cannot exceed 25 characters")
         return last_name
-    #
-    # def _native_sex(self, sex):
-    #     sex = sex.lower()
-    #     if sex != "male" and sex != "female":
-    #         raise ValueError("Sex must be either male or female")
-    #     return sex
+
+    def _native_sex(self, sex):
+        sex = sex.lower()
+        if sex != "male" and sex != "female":
+            raise ValueError("Sex must be either male or female")
+        return sex
 
     def __str__(self) -> str:
         return self.sc_id + "\t|" + self.first_name + "\t\t|" + self.last_name + "\t\t|" + self.sex
