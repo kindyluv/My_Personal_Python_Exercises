@@ -1,57 +1,47 @@
-# # This is a sample Python script.
-#
-# # Press Shift+F10 to execute it or replace it with your code.
-# # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-#
-#
-# def print_hi(name):
-#     # Use a breakpoint in the code line below to debug your script.
-#     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-#
-#
-# # Press the green button in the gutter to run the script.
-# if __name__ == '__main__':
-#     print_hi('PyCharm')
-#
-# # See PyCharm help at https://www.jetbrains.com/help/pycharm/r
-# import item
-from item import Item
-from item import Cart
+from precious.oop.object_oriented_programming import object_oriented_programming, functions
 
-# cart_owner_name = "default"////
-cart = Cart("default")
+if __name__ == "__main__":
+    main_building = object_oriented_programming.Building("Semicolon Village", "312 Herbert Macaulay, Sabo, Yaba\n\n")
+    sc_id = input("Enter your Semi colon id no\t")
+    first_name = input("Enter First Name\t")
+    last_name = input("Enter Last name\t")
+    sex = input("Enter Sex\t")
 
+    native_1 = functions.create_natives(sc_id, first_name, last_name, sex)
+    cohort_1 = object_oriented_programming.Cohort(cohort_name=input("Enter name of cohort\t"))
+    cohort_1.cohort_natives.append(native_1.__str__())
+    main_building.cohorts.append(cohort_1.__str__())
 
-def set_up_cart():
-    global cart
-    cart_owner_name = input("what is the owner's name: ")
-    cart = Cart(cart_owner_name)
+    native_2 = functions.create_natives(sc_id, first_name, last_name, sex)
+    cohort_2 = object_oriented_programming.Cohort(cohort_name=input("Enter name of cohort\t"))
+    cohort_2.cohort_natives.append(native_2.__str__())
+    main_building.cohorts.append(cohort_2.__str__())
 
+    # native_2_1 = object_oriented_programming.Native(sc_id=input("Enter your Semi colon id no\t"), first_name=
+    # input("Enter First Name\t"), last_name=input("Enter Last name\t"), sex=input("Enter Sex\t"))
+    # native_2_2 = object_oriented_programming.Native(sc_id=input("Enter your Semi colon id no\t"), first_name=
+    # input("Enter First Name\t"), last_name=input("Enter Last name\t"), sex=input("Enter Sex\t"))
+    # cohort_2 = object_oriented_programming.Cohort(cohort_name=input("Enter name of cohort"))
+    # cohort_2.cohort_natives.append(native_2_1.__str__())
+    # cohort_2.cohort_natives.append(native_2_2.__str__())
+    # main_building.cohorts.append(cohort_2.__str__())
+    #
+    # native_3_1 = object_oriented_programming.Native(sc_id=input("Enter your Semi colon id no\t"), first_name=
+    # input("Enter First Name\t"), last_name=input("Enter Last name\t"), sex=input("Enter Sex\t"))
+    # native_3_2 = object_oriented_programming.Native(sc_id=input("Enter your Semi colon id no\t"), first_name=
+    # input("Enter First Name\t"), last_name=input("Enter Last name\t"), sex=input("Enter Sex\t"))
+    # cohort_3 = object_oriented_programming.Cohort(cohort_name=input("Enter name of cohort"))
+    # cohort_3.cohort_natives.append(native_3_1.__str__())
+    # cohort_3.cohort_natives.append(native_3_2.__str__())
+    # main_building.cohorts.append(cohort_3.__str__())
+    #
+    # native_4_1 = object_oriented_programming.Native(sc_id=input("Enter your Semi colon id no\t"), first_name=
+    # input("Enter First Name\t"), last_name=input("Enter Last name\t"), sex=input("Enter Sex\t"))
+    # native_4_2 = object_oriented_programming.Native(sc_id=input("Enter your Semi colon id no\t"), first_name=
+    # input("Enter First Name\t"), last_name=input("Enter Last name\t"), sex=input("Enter Sex\t"))
+    # cohort_4 = object_oriented_programming.Cohort(cohort_name=input("Enter name of cohort"))
+    # cohort_4.cohort_natives.append(native_4_1.__str__())
+    # cohort_4.cohort_natives.append(native_4_2.__str__())
+    # main_building.cohorts.append(cohort_4.__str__())
 
-def add_items_to_cart():
-    add_more_items = "yes"
-    while add_more_items.lower() == "yes":
-        # add_item_to_cart()
-        add_item_to_cart()
-        add_more_items = input("Anything else? \n")
-        print(add_more_items)
-
-
-def add_item_to_cart():
-    item_name = input("What item did" + cart.owner_name + "purchased \n")
-    item_price = float(input("How much does the " + item_name + "cost \n"))
-    item_quantity = int(input("how many " + item_name + " " + cart.owner_name + "buy \n"))
-    new_item = Item(item_name, item_price, item_quantity)
-    cart.add(new_item)
-
-
-def display_invoice():
-    print(cart)
-    print(str(cart.calculate_total_price()))
-    print(str(cart.calculate_vat_of(7.5)))
-
-
-if __name__ == '__main__':
-    set_up_cart()
-    add_items_to_cart()
-    display_invoice()
+    print(main_building, ("Semicolon Village", "312 Herbert Macaulay, Sabo, Yaba\n\n"))
