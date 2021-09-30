@@ -46,10 +46,10 @@ class Native:
         self.last_name = self._native_last_name(last_name)
         self.sex = self._native_sex(sex)
 
-#     def _native_first_name(self, first_name):
-#         if len(first_name) > 25:
-#             raise ValueError("first name can not exceed 25 characters")
-#         return first_name
+    def _native_first_name(self, first_name):
+        if len(first_name) > 25:
+            raise ValueError("first name can not exceed 25 characters")
+        return first_name
 #
 #     def _native_last_name(self, last_name):
 #         if len(last_name) > 25:
