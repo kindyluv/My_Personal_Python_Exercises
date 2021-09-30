@@ -38,14 +38,14 @@ class Cohort:
         return "NAME OF COHORT: " + self.cohort_name + "\n\n" + "SCN No. | First Name    | Last Name     | Sex" + \
                "\n" + "----------------------------------------------" + " \n" + natives
 
-#
-# class Native:
-#     def __init__(self, sc_id, first_name, last_name, sex):
-#         self.sc_id = sc_id
-#         self.first_name = self._native_first_name(first_name)
-#         self.last_name = self._native_last_name(last_name)
-#         self.sex = self._native_sex(sex)
-#
+
+class Native:
+    def __init__(self, sc_id, first_name, last_name, sex):
+        self.sc_id = sc_id
+        self.first_name = self._native_first_name(first_name)
+        self.last_name = self._native_last_name(last_name)
+        self.sex = self._native_sex(sex)
+
 #     def _native_first_name(self, first_name):
 #         if len(first_name) > 25:
 #             raise ValueError("first name can not exceed 25 characters")
