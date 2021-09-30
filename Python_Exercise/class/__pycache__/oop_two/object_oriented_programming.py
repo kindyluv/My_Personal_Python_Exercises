@@ -16,16 +16,16 @@ class Cohort:
         self.cohort_name = self._cohort_name_(cohort_name)
         self.cohort_natives = []
 
-#     def _cohort_name_(self, cohort_name):
-#         while True:
-#             try:
-#                 cohort_name = cohort_name.lower()
-#                 if len(cohort_name) > 15:
-#                     raise ValueError("cohort name can not exceed 15 characters")
-#                 return cohort_name
-#             except ValueError:
-#                 cohort_name = input("Please enter a valid cohort name\n--> ")
-#
+    def _cohort_name_(self, cohort_name):
+        while True:
+            try:
+                cohort_name = cohort_name.lower()
+                if len(cohort_name) > 15:
+                    raise ValueError("cohort name can not exceed 15 characters")
+                return cohort_name
+            except ValueError:
+                cohort_name = input("Please enter a valid cohort name\n--> ")
+
 #     # def _cohort_number_(self, cohort_number):
 #     #     if len(cohort_number) <= 0:
 #     #         raise ValueError("cohort number can not be lesser than 1: ")
