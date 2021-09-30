@@ -26,18 +26,18 @@ class Cohort:
             except ValueError:
                 cohort_name = input("Please enter a valid cohort name\n--> ")
 
-#     # def _cohort_number_(self, cohort_number):
-#     #     if len(cohort_number) <= 0:
-#     #         raise ValueError("cohort number can not be lesser than 1: ")
-#     #     return cohort_number
-#
-#     def __str__(self) -> str:
-#         natives = ""
-#         for native in self.cohort_natives:
-#             natives += native + "\n"
-#         return "NAME OF COHORT: " + self.cohort_name + "\n\n" + "SCN No. | First Name    | Last Name     | Sex" + \
-#                "\n" + "----------------------------------------------" + " \n" + natives
-#
+    # def _cohort_number_(self, cohort_number):
+    #     if len(cohort_number) <= 0:
+    #         raise ValueError("cohort number can not be lesser than 1: ")
+    #     return cohort_number
+
+    def __str__(self) -> str:
+        natives = ""
+        for native in self.cohort_natives:
+            natives += native + "\n"
+        return "NAME OF COHORT: " + self.cohort_name + "\n\n" + "SCN No. | First Name    | Last Name     | Sex" + \
+               "\n" + "----------------------------------------------" + " \n" + natives
+
 #
 # class Native:
 #     def __init__(self, sc_id, first_name, last_name, sex):
