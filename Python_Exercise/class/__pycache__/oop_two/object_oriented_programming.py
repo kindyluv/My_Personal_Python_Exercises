@@ -55,23 +55,23 @@ class Native:
         if len(last_name) > 25:
             raise ValueError("Last Name cannot exceed 25 characters")
         return last_name
-#
-#     def _native_sex(self, sex):
-#         while True:
-#             try:
-#                 sex = sex.lower()
-#                 if sex != "male" and sex != "female":
-#                     raise ValueError("Sex must be either male or female")
-#                 return sex.lower()
-#             except ValueError:
-#                 sex = input("enter valid sex: ")
-#                 return sex.lower()
-#         # while True:
-#         #     try:
-#         #         if sex.lower() == "female" or sex.lower() == "male":
-#         #             sex = sex
-#         #     except ValueError:
-#         #         sex = input("enter valid sex: ")
-#
-#     def __str__(self) -> str:
-#         return self.sc_id + "\t\t|" + self.first_name + "\t\t|" + self.last_name + "\t\t|" + self.sex
+
+    def _native_sex(self, sex):
+        while True:
+            try:
+                sex = sex.lower()
+                if sex != "male" and sex != "female":
+                    raise ValueError("Sex must be either male or female")
+                return sex.lower()
+            except ValueError:
+                sex = input("enter valid sex: ")
+                return sex.lower()
+        # while True:
+        #     try:
+        #         if sex.lower() == "female" or sex.lower() == "male":
+        #             sex = sex
+        #     except ValueError:
+        #         sex = input("enter valid sex: ")
+
+    def __str__(self) -> str:
+        return self.sc_id + "\t\t|" + self.first_name + "\t\t|" + self.last_name + "\t\t|" + self.sex
