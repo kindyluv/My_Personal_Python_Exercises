@@ -11,11 +11,11 @@ class Building:
         return "\n\n" + "NAME OF BUILDING: " + self.building_name + "\n" + "ADDRESS: " + self.address + "\n\n" + cohorts
 
 
-# class Cohort:
-#     def __init__(self, cohort_name):
-#         self.cohort_name = self._cohort_name_(cohort_name)
-#         self.cohort_natives = []
-#
+class Cohort:
+    def __init__(self, cohort_name):
+        self.cohort_name = self._cohort_name_(cohort_name)
+        self.cohort_natives = []
+
 #     def _cohort_name_(self, cohort_name):
 #         while True:
 #             try:
